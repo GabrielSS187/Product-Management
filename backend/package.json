@@ -11,7 +11,8 @@
       "start": "tsc && node ./dist/index.js",
       "dev": "tsnd --transpile-only --ignore-watch node_modules ./src/index.ts",
       "build": "tsc",
-      "test": "jest"
+      "test": "jest",
+      "heroku-postbuild": "ng build --prod"
    },
    "keywords": [],
    "author": "Gabriel Silva <gabriel127.gk@gmail.com>",
