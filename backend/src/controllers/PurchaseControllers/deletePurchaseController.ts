@@ -1,9 +1,9 @@
 import { Request, Response } from "express";
 
-import { DeletePurchaseRepository } from "../../repositories/database-repository/purchase-database-repository";
+import { DeletePurchaseRepository } from "../../repositories/purchaseRepository";
 import { DeletePurchaseCase } from "../../business/PurchaseCases/DeletePurchaseCase";
 
-import { CustomError } from "../../Erros/CustomError";
+import { CustomError } from "../../errors/CustomError";
 
 export const deletePurchaseController = async ( req: Request, res: Response ): Promise<{}> => {
   try {
@@ -18,7 +18,7 @@ export const deletePurchaseController = async ( req: Request, res: Response ): P
 
     await deletePurchaseCase.delete({ idPurchase });
     
-    res.status(200).json({ message: "Produto deletado com sucesso." });
+   return res.status(200).json({ message: "Produto deletado com sucesso." });
   } catch ( error ) {
     return error instanceof CustomError
     ?

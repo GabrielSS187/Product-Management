@@ -1,9 +1,9 @@
-import { IUpdateQuantityRepository } from "../../repositories/purchase-repository";
+import { IUpdateQuantityRepository } from "../../model/purchaseModel";
 
 import {
   VerifyQuantity, 
   VerifyIfContainsNewQuantity
- } from "../../Erros/PurchaseErros/PurchaseErros";
+ } from "../../errors/PurchaseErrors/PurchaseErrors";
 
 interface IUpdateQuantityCases {
   idPurchase: string;

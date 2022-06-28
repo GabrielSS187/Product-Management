@@ -1,9 +1,9 @@
 import { Request, Response } from "express";
 
-import { GetAllProductsRepository } from "../../repositories/database-repository/products-database-repository";
+import { GetAllProductsRepository } from "../../repositories/productsRepository";
 import { GetAllProductsCases } from "../../business/ProductsCases/GetAllProductCases";
 
-import { CustomError } from "../../Erros/CustomError";
+import { CustomError } from "../../errors/CustomError";
 
 export const getAllProductsController = async ( req: Request, res: Response ): Promise<{}> => {
     try {

@@ -1,6 +1,9 @@
-import { IGetAllProductsRepository } from "../../repositories/products-repository";
+import { IGetAllProductsRepository } from "../../model/productsModel";
 
-import { VerifyIfExistProducts, VerifyIfExistAllProducts } from "../../Erros/ProductErros/ProductErros";
+import {
+   VerifyIfExistProducts, 
+   VerifyIfExistAllProducts 
+  } from "../../errors/ProductErrors/ProductErrors";
 
 enum MinMaxPrice {
   MAX = "max",

@@ -1,4 +1,4 @@
-import { IDeletePurchaseRepository } from "../../repositories/purchase-repository";
+import { IDeletePurchaseRepository } from "../../model/purchaseModel";
 
 interface IDeletePurchaseCase {
   idPurchase: string;

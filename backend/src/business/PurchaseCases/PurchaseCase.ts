@@ -1,4 +1,4 @@
-import {  IPurchaseRepository } from "../../repositories/purchase-repository";
+import {  IPurchaseRepository } from "../../model/purchaseModel";
 
 import {
    VerifyIfContainsDate,
@@ -6,7 +6,7 @@ import {
    VerifyQuantity,
    VerifyIfContainsQuantity,
    VerifyScheduleDate
-  } from "../../Erros/PurchaseErros/PurchaseErros";
+  } from "../../errors/PurchaseErrors/PurchaseErrors";
 
 import { generateId } from "../../services/generateId";
 import { convertDateBR, currentDateUS } from "../../services/convertDateBR";

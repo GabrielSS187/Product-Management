@@ -1,6 +1,9 @@
-import { IGetAllPurchasesRepository } from "../../repositories/purchase-repository";
+import { IGetAllPurchasesRepository } from "../../model/purchaseModel";
 
-import { VerifyIfExistPurchases, VerifyIfExistAllPurchases } from "../../Erros/PurchaseErros/PurchaseErros";
+import { 
+  VerifyIfExistPurchases, 
+  VerifyIfExistAllPurchases
+ } from "../../errors/PurchaseErrors/PurchaseErrors";
 
 import { convertDateUS } from "../../services/convertDateUS";
 

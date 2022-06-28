@@ -1,9 +1,9 @@
 import { Request, Response } from "express";
 
-import { UpdateQuantityRepository } from "../../repositories/database-repository/purchase-database-repository";
+import { UpdateQuantityRepository } from "../../repositories/purchaseRepository";
 import { UpdateQuantityCase } from "../../business/PurchaseCases/UpdateQuantityCase";
 
-import { CustomError } from "../../Erros/CustomError";
+import { CustomError } from "../../errors/CustomError";
 
 export const updateQuantityController = async ( req: Request, res: Response ): Promise<{}> => {
   try {
