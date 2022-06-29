@@ -9,9 +9,9 @@ import { SubPopUp } from "../../../components/SubPopUp";
 import { PopUpBackground } from "../../../components/PopUpBackground";
 import { ButtonCTA } from "../../../components/ButtonCTA/styles";
 import { Load } from "../../../components/Load";
+import { ContainerHeader } from "../../../components/ContainerHeader/styles";
 
 import { Container, Ul, LiCard, Error } from "./styles";
-import { ContainerHeader } from "../../../components/ContainerHeader/styles";
 
 import { AnimatePresence } from "framer-motion";
 import { container, item } from "../../../animations/animations";
@@ -19,7 +19,7 @@ import { container, item } from "../../../animations/animations";
 import { BsSearch } from "react-icons/bs";
 import { AiOutlineClose } from "react-icons/ai";
 
-import {IOutputProductData}from "../../Home/index"
+import {IOutputProductData}from "../../Home/index";
 
 interface ProductsProps {
   products: IOutputProductData[] | any;
@@ -49,7 +49,7 @@ export const Products = ({
 
     const { form, onChange, clearInputs } = useForm({
       quantity: "",
-      date: "",
+      date: ""
     });
 
     const navigate = useNavigate();

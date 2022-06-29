@@ -8,9 +8,9 @@ import { SubPopUp } from "../../../components/SubPopUp";
 import { PopUpBackground } from "../../../components/PopUpBackground";
 import { ButtonCTA } from "../../../components/ButtonCTA/styles";
 import { Load } from "../../../components/Load";
+import { ContainerHeader } from "../../../components/ContainerHeader/styles";
 
 import { Container, Ul, LiCard, ButtonsLayout1, ButtonsLayout2, Error } from "./styles";
-import { ContainerHeader } from "../../../components/ContainerHeader/styles";
 
 import { AnimatePresence } from "framer-motion";
 import { container, item } from "../../../animations/animations";
@@ -48,7 +48,7 @@ export const Purchases = ({
   const [ messageError, setMessageError ] = useState<string | null>(null);
 
   const { form, onChange, clearInputs } = useForm({
-    quantity: "",
+    quantity: ""
   });
 
   useEffect(() => {
@@ -85,7 +85,7 @@ export const Purchases = ({
   const deletePurchase = async () => {
     try {
       await api.delete(`/purchase/${productSelected?.id}`);
-      setSelectedId(null)
+      setSelectedId(null);
       await getAllPurchases();
       await getAllProducts();
 
