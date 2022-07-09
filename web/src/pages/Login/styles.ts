@@ -25,12 +25,6 @@ export const Container = styled(motion.main)`
     font-family: var( --font-montserrat);
     font-weight: 500;
   }
-
-  .footer {
-    width: 100%;
-    position: absolute;
-    bottom: 0;
-  }
 `;
 
 export const Form = styled(motion.form)`

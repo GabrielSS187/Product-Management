@@ -10,10 +10,6 @@ export const Container = styled(motion.main)`
 
   padding-top: 50px;
   text-align: center;
-
-  .footer {
-    width: 100%;
-  }
 `; 
 
 export const  Header = styled(motion.header)`

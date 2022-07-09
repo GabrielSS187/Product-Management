@@ -90,10 +90,6 @@ export const Admin = ({ buysTotalPrice, products, handleTotalPrice, purchases }:
           <Outlets>
             <Outlet />
           </Outlets>
-
-          <div className="footer">
-            <Footer />
-          </div>
       </Container>
 
   );

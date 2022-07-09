@@ -57,10 +57,6 @@ const validateForm = () => {
               </Error>
               <button type="submit" onClick={validateForm}>Entrar</button>
           </Form>
-
-          <div className="footer">
-            <Footer />
-          </div>
     </Container>
 
   );
