@@ -6,7 +6,6 @@ export const Container = styled(motion.main)`
   height: 100vh;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
 
   padding-top: 50px;
   text-align: center;
@@ -89,11 +88,11 @@ export const DivButtons = styled(motion.div)`
 `;
 
 export const Outlets = styled(motion.div)`
-width: 100%;
+  width: 100%;
 
-padding-top: 10px;
-height: 50vh;
+  padding-top: 30px;
+  height: 55vh;
 
-display: flex;
-justify-content:center
+  display: flex;
+  justify-content:center
 `;
