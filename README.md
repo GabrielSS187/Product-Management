@@ -25,6 +25,7 @@ ou nome. Gerenciar o carrinho de compras como excluir produtos comprados e alter
 
 ## Competências
 - Princípios SOLID
+- REST
 
 # Tecnologias utilizadas
 ## Back end
