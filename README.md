@@ -21,7 +21,7 @@ ou nome. Gerenciar o carrinho de compras como excluir produtos comprados e alter
 ![Captura de Tela (177)](https://user-images.githubusercontent.com/86306877/179446818-50930cd3-666f-4244-8168-3908304535f0.png)
 
 ## Modelo conceitual
-### ???
+![Captura de Tela (178)](https://user-images.githubusercontent.com/86306877/179448113-4908b9fd-2630-44cf-96be-fd48a939a117.png)
 
 ## Competências
 - Princípios SOLID
